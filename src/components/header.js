@@ -121,17 +121,16 @@ function MobileHeader({ cartItems, isActive, navigate }) {
             <img src={logo} className='logo' />
           </a>
           <span className='d-flex align-items-center'>
-          <FaSearch size={22} className='me-4 icon-c' />
-            <FaUser size={23}  className='me-3 icon-c' />
+            <FaSearch size={22} className='me-4 icon-c' />
+            <FaUser size={23} className='me-3 icon-c' />
             <span className='position-relative'>
-            <Link to='/Checkout' className='text-decoration-none'>
-              <FaShoppingCart
-                size={23}
-                
-                className='text-decoration-none icon-c'
-              />
-              <small className='bag-no '>{cartItems.length}</small>
-            </Link>
+              <Link to='/Checkout' className='text-decoration-none'>
+                <FaShoppingCart
+                  size={23}
+                  className='text-decoration-none icon-c'
+                />
+                <small className='bag-no '>{cartItems.length}</small>
+              </Link>
             </span>
           </span>
 
@@ -183,7 +182,9 @@ function MobileHeader({ cartItems, isActive, navigate }) {
                 Accessories
               </a>
               <a
-                className={`nav-link ${isActive('/Cosmetices') ? 'active' : ''}`}
+                className={`nav-link ${
+                  isActive('/Cosmetices') ? 'active' : ''
+                }`}
                 onClick={() => navigate('/Cosmetices')}
               >
                 Cosmetics

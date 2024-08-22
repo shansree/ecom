@@ -12,9 +12,9 @@ import { FaExpandArrowsAlt } from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa';
 
 const Womens = () => {
-  const [searchQuery, setSearchQuery] = useState(''); 
+  const [searchQuery, setSearchQuery] = useState('');
   const dispatch = useDispatch();
-
+  // Add to cart functionality
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
     toast.success('Added to cart!');

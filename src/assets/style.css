@@ -63,7 +63,7 @@
   .search-close {
     right: 16px !important;
   }
-  Canvas{
+  Canvas {
     display: none !important;
   }
 
@@ -1002,8 +1002,7 @@ span.sr-only {
   margin-top: 80px;
 }
 
-
-.filter-dropdown{
+.filter-dropdown {
   width: 150px !important;
   border: 2px solid #eaeff4 !important;
   border-radius: 29px !important;

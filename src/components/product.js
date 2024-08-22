@@ -15,6 +15,7 @@ export function Product1() {
   const [selectedColor, setSelectedColor] = useState('');
   const dispatch = useDispatch();
 
+  // Add to cart functionality
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
     toast.success('Added to cart!');
@@ -23,7 +24,7 @@ export function Product1() {
   if (!Array.isArray(allData.all)) {
     return <div>Error: Product data is not an array</div>;
   }
-
+  // filter functionality
   const filteredProducts = allData.all.filter((product) => {
     return (
       (!selectedSize || product.size === selectedSize) &&
@@ -38,30 +39,34 @@ export function Product1() {
             <span className='border-red'>Hot </span>Picks For You
           </h2>
         </h2>
-        <div className="d-flex justify-content-center mb-4">
+        <div className='d-flex justify-content-center mb-4'>
           <select
             value={selectedSize}
             onChange={(e) => setSelectedSize(e.target.value)}
-            className="form-select me-3 filter-dropdown"
+            className='form-select me-3 filter-dropdown'
           >
-            <option value="">Filter by Size</option>
-            {[...new Set(allData.all.map((product) => product.size))].map((size) => (
-              <option key={size} value={size}>
-                {size}
-              </option>
-            ))}
+            <option value=''>Filter by Size</option>
+            {[...new Set(allData.all.map((product) => product.size))].map(
+              (size) => (
+                <option key={size} value={size}>
+                  {size}
+                </option>
+              )
+            )}
           </select>
           <select
             value={selectedColor}
             onChange={(e) => setSelectedColor(e.target.value)}
-            className="form-select filter-dropdown"
+            className='form-select filter-dropdown'
           >
-            <option value="">Filter by Color</option>
-            {[...new Set(allData.all.map((product) => product.color))].map((color) => (
-              <option key={color} value={color}>
-                {color}
-              </option>
-            ))}
+            <option value=''>Filter by Color</option>
+            {[...new Set(allData.all.map((product) => product.color))].map(
+              (color) => (
+                <option key={color} value={color}>
+                  {color}
+                </option>
+              )
+            )}
           </select>
         </div>
         <div className='row'>

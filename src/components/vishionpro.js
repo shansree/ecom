@@ -1,17 +1,18 @@
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
-import { useFrame } from '@react-three/fiber'
+import React, { useRef } from 'react';
+import { useGLTF } from '@react-three/drei';
+import { useFrame } from '@react-three/fiber';
 
 export function Visionpro(props) {
-  const { nodes, materials } = useGLTF('/apple_vision_pro_ios16.glb')
-  const groupRef = useRef()
+  const { nodes, materials } = useGLTF('/apple_vision_pro_ios16.glb');
+  // added rotation
+  const groupRef = useRef();
 
   useFrame(() => {
-    groupRef.current.rotation.y += 0.01 // Adjust the rotation speed as needed
-  })
+    groupRef.current.rotation.y += 0.01; // Adjust the rotation speed as needed
+  });
 
   return (
-    <group  ref={groupRef} {...props} dispose={null}>
+    <group ref={groupRef} {...props} dispose={null}>
       <group scale={0.01}>
         <mesh
           castShadow
@@ -729,8 +730,7 @@ export function Visionpro(props) {
         />
       </group>
     </group>
-  )
+  );
 }
 
-useGLTF.preload('/apple_vision_pro_ios16.glb')
-
+useGLTF.preload('/apple_vision_pro_ios16.glb');

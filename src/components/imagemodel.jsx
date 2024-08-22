@@ -7,12 +7,10 @@ const ImageModal = ({ show, handleClose, imageUrl, title }) => {
       <Modal.Header closeButton className='justify-content-between '>
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
-      <Modal.Body className="text-center">
-        <img src={imageUrl} alt={title} className="w-100 modal-cardimg" />
+      <Modal.Body className='text-center'>
+        <img src={imageUrl} alt={title} className='w-100 modal-cardimg' />
       </Modal.Body>
-      <Modal.Footer>
-     
-      </Modal.Footer>
+      <Modal.Footer></Modal.Footer>
     </Modal>
   );
 };

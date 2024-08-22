@@ -10,22 +10,23 @@ import { toast } from 'react-toastify';
 const Order = () => {
   const cartItems = useSelector((state) => state.cart.cart);
   console.log(cartItems);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const handelshowButton = false;
 
   const [quantities, setQuantities] = useState(
     cartItems.reduce((acc, item) => {
-      acc[item.id] = 1; // Initialize with quantity 1 for each item
+      // Initializde with quantity 1 for each item
+      acc[item.id] = 1;
       return acc;
     }, {})
   );
 
   const parsePrice = (priceString) => {
-    // Remove currency symbol and commas, then parse to float
+    // Removeed currency symbol and commas, then parse to float
     return parseFloat(priceString.replace(/[^0-9.-]+/g, ''));
   };
-
+  // Calculation functionality
   const Subtotal = cartItems.reduce(
     (total, item) =>
       total + parsePrice(item.priceINR) * (quantities[item.id] || 1),
@@ -33,7 +34,7 @@ const Order = () => {
   );
   const DeliveryCharge = 100;
   const total = Subtotal + DeliveryCharge;
-
+  // Formic method using hook form
   const [formData, setFormData] = useState({
     firstName: '',
     number: '',
@@ -50,12 +51,18 @@ const Order = () => {
     saveInfo: false,
   });
 
-
   const [isFormComplete, setIsFormComplete] = useState(false);
 
   useEffect(() => {
     const checkFormComplete = () => {
-      const requiredFields = ['firstName', 'number', 'address', 'country', 'state', 'zip'];
+      const requiredFields = [
+        'firstName',
+        'number',
+        'address',
+        'country',
+        'state',
+        'zip',
+      ];
       return requiredFields.every((field) => formData[field].trim() !== '');
     };
 
@@ -69,46 +76,56 @@ const Order = () => {
       [name]: type === 'checkbox' ? checked : value,
     });
   };
-
+  // Handel submit
   const handleSubmit = (e) => {
     e.preventDefault();
     const emailParams = {
-        firstName: formData.firstName,
-        lastName: formData.lastName,
-        number: formData.number,
-        address: formData.address,
-        country: formData.country,
-        state: formData.state,
-        zip: formData.zip,
-        paymentMethod: formData.paymentMethod,
-        cardName: formData.cardName,
-        cardNumber: formData.cardNumber,
-        expiryDate: formData.expiryDate,
-        cvv: formData.cvv,
-        shippingSame: formData.shippingSame ? 'Yes' : 'No',
-        saveInfo: formData.saveInfo ? 'Yes' : 'No',
-        subtotal: Subtotal,
-        deliveryCharge: DeliveryCharge,
-        total: total,
-      };
-    
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      number: formData.number,
+      address: formData.address,
+      country: formData.country,
+      state: formData.state,
+      zip: formData.zip,
+      paymentMethod: formData.paymentMethod,
+      cardName: formData.cardName,
+      cardNumber: formData.cardNumber,
+      expiryDate: formData.expiryDate,
+      cvv: formData.cvv,
+      shippingSame: formData.shippingSame ? 'Yes' : 'No',
+      saveInfo: formData.saveInfo ? 'Yes' : 'No',
+      subtotal: Subtotal,
+      deliveryCharge: DeliveryCharge,
+      total: total,
+    };
+
     // Send email using EmailJS
-    emailjs.send('service_95yrnu5', 'template_ggogexc', emailParams, 'sbTvVDtovUEhP0Mlu')
-      .then((result) => {
-        toast.success('Order Placed SuccessFully!');
-        setFormData('')
-        navigate('/')
-       
-      }, (error) => {
-        alert('Error placing order.');
-      });
+    emailjs
+      .send(
+        'service_95yrnu5',
+        'template_ggogexc',
+        emailParams,
+        'sbTvVDtovUEhP0Mlu'
+      )
+      .then(
+        (result) => {
+          toast.success('Order Placed SuccessFully!');
+          setFormData('');
+          navigate('/');
+        },
+        (error) => {
+          alert('Error placing order.');
+        }
+      );
   };
   return (
     <>
       <Header />
       <div className='mt-80'>
         <div className='py-4 text-center '>
-          <h1><span className='border-red'>Checkout</span> Form</h1>
+          <h1>
+            <span className='border-red'>Checkout</span> Form
+          </h1>
         </div>
       </div>
 
@@ -131,7 +148,10 @@ const Order = () => {
             <form onSubmit={handleSubmit} className='orderForm'>
               <div className='row'>
                 <div className='col-lg-6 mb-4'>
-                  <label htmlFor='firstName' className='lable-style'> First Name </label>
+                  <label htmlFor='firstName' className='lable-style'>
+                    {' '}
+                    First Name{' '}
+                  </label>
                   <input
                     type='text'
                     name='firstName'
@@ -143,7 +163,9 @@ const Order = () => {
                 </div>
 
                 <div className='mb-4 col-lg-6'>
-                  <label htmlFor='number' className='lable-style'>Contact No</label>
+                  <label htmlFor='number' className='lable-style'>
+                    Contact No
+                  </label>
                   <input
                     type='number'
                     name='number'
@@ -157,7 +179,9 @@ const Order = () => {
 
               <div className='row'>
                 <div className='col-lg-4 col-sm-12 mb-sm-0  mb-3'>
-                  <label htmlFor='country' className='lable-style'>Country</label>
+                  <label htmlFor='country' className='lable-style'>
+                    Country
+                  </label>
                   <select
                     name='country'
                     className='form-select'
@@ -171,7 +195,9 @@ const Order = () => {
                   </select>
                 </div>
                 <div className='col-lg-4 col-sm-12 mb-sm-0  mb-3'>
-                  <label htmlFor='state' className='lable-style'>State</label>
+                  <label htmlFor='state' className='lable-style'>
+                    State
+                  </label>
                   <select
                     name='state'
                     className='form-select'
@@ -185,7 +211,9 @@ const Order = () => {
                   </select>
                 </div>
                 <div className='col-lg-4 col-sm-12 mb-4'>
-                  <label htmlFor='zip' className='lable-style'>Zip Code</label>
+                  <label htmlFor='zip' className='lable-style'>
+                    Zip Code
+                  </label>
                   <input
                     type='text'
                     name='zip'
@@ -195,7 +223,9 @@ const Order = () => {
                   />
                 </div>
                 <div className='mb-4 col-lg-12'>
-                  <label htmlFor='address' className='lable-style'>Address</label>
+                  <label htmlFor='address' className='lable-style'>
+                    Address
+                  </label>
                   <textarea
                     type='text'
                     name='address'
@@ -317,7 +347,9 @@ const Order = () => {
                   <>
                     <div className='row'>
                       <div className='col mb-4'>
-                        <label className='lable-style' htmlFor='cardName'>Name on card</label>
+                        <label className='lable-style' htmlFor='cardName'>
+                          Name on card
+                        </label>
                         <input
                           type='text'
                           name='cardName'
@@ -332,7 +364,9 @@ const Order = () => {
                       </div>
 
                       <div className='col mb-4'>
-                        <label  className='lable-style' htmlFor='cardNumber'>Credit card Number</label>
+                        <label className='lable-style' htmlFor='cardNumber'>
+                          Credit card Number
+                        </label>
                         <input
                           type='text'
                           name='cardNumber'
@@ -346,7 +380,9 @@ const Order = () => {
 
                     <div className='row'>
                       <div className='col mb-3'>
-                        <label  className='lable-style' htmlFor='expiryDate'>Expiry Date</label>
+                        <label className='lable-style' htmlFor='expiryDate'>
+                          Expiry Date
+                        </label>
                         <input
                           type='text'
                           name='expiryDate'
@@ -358,7 +394,9 @@ const Order = () => {
                       </div>
 
                       <div className='col mb-3'>
-                        <label  className='lable-style' htmlFor='cvv'>CVV</label>
+                        <label className='lable-style' htmlFor='cvv'>
+                          CVV
+                        </label>
                         <input
                           type='text'
                           name='cvv'
@@ -375,7 +413,11 @@ const Order = () => {
                 <hr className='mb-4 mt-4' />
 
                 <div className='text-center d-flex justify-content-center'>
-                  <button className='btn bg-btn' type='submit'  disabled={!isFormComplete}>
+                  <button
+                    className='btn bg-btn'
+                    type='submit'
+                    disabled={!isFormComplete}
+                  >
                     Place Order
                   </button>
                 </div>
