@@ -1,0 +1,599 @@
+ { 
+  "all" : [
+  {
+    "id": "1",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397",
+    "imageUrl": "https://m.media-amazon.com/images/I/81uvvz3jj8L._AC_UY1100_.jpg",
+    "size": "M",
+    "color": "black"
+  },
+  {
+    "id": "2",
+    "title": "Sleek Black Evening Gown",
+    "subtitle": "Style: BG5678",
+    "description": "A sophisticated black evening gown with a fitted bodice and a dramatic skirt, ideal for formal occasions.",
+    "priceUSD": "$199",
+    "priceINR": "₹16517",
+    "imageUrl": "https://www.wyshlist.io/cdn/shop/files/xs-6111-sheetal-associates-original-imagmzm9zghtxzky.webp?v=1692337883&width=1445",
+    "size": "S",
+    "color": "black"
+  },
+  {
+    "id": "3",
+    "title": "Bohemian Summer Dress",
+    "subtitle": "Style: SD9101",
+    "description": "This bohemian-inspired summer dress features a relaxed fit and a vibrant print, perfect for a casual day out.",
+    "priceUSD": "$75",
+    "priceINR": "₹6225",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Zdb5kbqP-zn95fCLF4rmWz5MkTrMdKkI4Q&s",
+    "size": "L",
+    "color": "blue"
+  },
+  {
+    "id": "4",
+    "title": "Chic Office Dress",
+    "subtitle": "Style: OD2345",
+    "description": "A chic and professional office dress with a tailored fit and subtle details, ideal for a polished work look.",
+    "priceUSD": "$110",
+    "priceINR": "₹9130",
+    "imageUrl": "https://www.beyoung.in/blog/wp-content/uploads/2018/09/general-1.png",
+    "size": "XL",
+    "color": "grey"
+  },
+  {
+    "id": "5",
+    "title": "Casual Day Dress",
+    "subtitle": "Style: DD6789",
+    "description": "A comfortable and casual day dress with a relaxed fit and practical pockets, perfect for everyday wear.",
+    "priceUSD": "$60",
+    "priceINR": "₹4980",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/54661df4e4b0c1af99306b69/1571417129773-NA9NJWK8M2VEVRTOWE8Y/DSC05603.JPG?format=2500w",
+     "size": "S",
+    "color": "black"
+  },
+  {
+    "id": "6",
+    "title": "Elegant Wrap Dress",
+    "subtitle": "Style: WR3456",
+    "description": "This elegant wrap dress features a flattering V-neck and a cinched waist, ideal for both casual and dressy occasions.",
+    "priceUSD": "$95",
+    "priceINR": "₹7885",
+    "imageUrl": "https://images.meesho.com/images/products/419286183/fjazk_512.webp",
+     "size": "M",
+    "color": "blue"
+  },
+  {
+    "id": "7",
+    "title": "Polka Dot Dress",
+    "subtitle": "Style: GD5678",
+    "description": "A fun polka dot dress for a playful look.",
+    "priceUSD": "$18",
+    "priceINR": "₹1482",
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20230623/kWAC/6495029942f9e729d7869844/-473Wx593H-464669430-red-MODEL.jpg",
+    "size": "L",
+    "color": "orange"
+  },
+  {
+    "id": "8",
+    "title": "Hydrating Face Serum",
+    "subtitle": "Size: 30ml",
+    "description": "A lightweight serum that deeply hydrates and revitalizes the skin.",
+    "priceUSD": "$25",
+    "priceINR": "₹2050",
+    "imageUrl": "https://m.media-amazon.com/images/I/51TKKIO5QjL._AC_UF1000,1000_QL80_.jpg",
+     "size": "XL",
+      "color": "black"
+  },
+  {
+    "id": "9",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397",
+    "imageUrl": "https://cottonworld.net/cdn/shop/products/L-BLOUSE-16863-20351-CORAL_5_96862ef3-ba94-41e3-b57f-b66376b446e3.jpg?v=1674623487&width=1280",
+    "size": "S",
+    "color": "pink"
+   
+  },
+  {
+    "id": "10",
+    "title": "Leather Handbag",
+    "subtitle": "Style: WH1234",
+    "description": "A stylish leather handbag perfect for everyday use.",
+    "priceUSD": "$89",
+    "priceINR": "₹7328",
+    "imageUrl": "https://m.media-amazon.com/images/I/61RSyB+kbzL._AC_UY1000_.jpg",
+     "color": "pink"
+  },
+  {
+    "id": "11",
+    "title": "Baseball Cap",
+    "subtitle": "Style: MB7890",
+    "description": "A trendy baseball cap for casual wear.",
+    "priceUSD": "$18",
+    "priceINR": "₹1482",
+    "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/xif0q/cap/t/7/b/free-latest-ny-baseball-cap-highever-original-imagnm8yxxvmhmdy.jpeg?q=90&crop=false",
+     "color": "brown"
+  },
+  {
+    "id": "12",
+    "title": "Casual Button-Up Shirt",
+    "subtitle": "Style: BU2345",
+    "description": "A casual button-up shirt suitable for both work and play.",
+    "priceUSD": "$18",
+    "priceINR": "₹1482",
+    "imageUrl": "https://m.media-amazon.com/images/I/71YLC4yiOqL._AC_UY1100_.jpg",
+    "size": "S",
+    "color": "green"
+  }
+],
+
+
+  "womens" : [
+    {
+      "id": "13",
+      "title": "Fery London",
+      "subtitle": "Style: SD5678",
+      "description": "A fery  London casual sundress that's perfect for summer .",
+      "priceUSD": "$19",
+      "priceINR": "₹977",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-F8wIfBMsvJSkfEdmzXzEPnkJCQJtPFJY1Q&s"
+  },
+  {
+      "id": "14",
+      "title": "Casual Sundress",
+      "subtitle": "Style: SD5678",
+      "description": "A breezy casual sundress that's perfect for warm weather.",
+      "priceUSD": "$49",
+      "priceINR": "₹4077",
+      "imageUrl": "https://image.made-in-china.com/2f0j00QnOlmzfyLNkE/Women-Dress-Boho-Beach-Short-Ladies-Summer-Casual-Sundress-Plaid-Holiday-Bohemian-Dresses.jpg"
+  },
+  {
+      "id": "15",
+      "title": "Striped Midi Dress",
+      "subtitle": "Style: MD2345",
+      "description": "A chic striped midi dress suitable for both casual and semi-formal occasions.",
+      "priceUSD": "$59",
+      "priceINR": "₹4907",
+      "imageUrl": "https://d2x02matzb08hy.cloudfront.net/img/clothing/hero_image/781231207/GC-D-0672Mauve__2_.jpg"
+  },
+  {
+      "id": "16",
+      "title": "Polka Dot Dress",
+      "subtitle": "Style: PD6789",
+      "description": "This playful polka dot dress is perfect for adding some fun to your wardrobe.",
+      "priceUSD": "$45",
+      "priceINR": "₹3747",
+      "imageUrl": "https://images.glowroad.com/faceview/fh/h7e/b1e/bf/imgs/pd/1664511253151_WhatsApp_Image_2022-09-28_at_7.36.46_PM-xlgn400x400.jpeg?productId=P-8788618"
+  },
+  {
+      "id": "17",
+      "title": "Floral Wrap Dress",
+      "subtitle": "Style: WD3456",
+      "description": "A versatile floral wrap dress that can be dressed up or down.",
+      "priceUSD": "$55",
+      "priceINR": "₹4577",
+      "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20240206/ikUg/65c13c248cdf1e0df5e9cd63/-473Wx593H-467038883-black-MODEL.jpg"
+  },
+  {
+      "id": "18",
+      "title": "Sleeveless Shift Dress",
+      "subtitle": "Style: SD1234",
+      "description": "A classic sleeveless shift dress that's perfect for any occasion.",
+      "priceUSD": "$39",
+      "priceINR": "₹3257",
+      "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20230925/WY2i/6511ac4bafa4cf41f5081a9f/-473Wx593H-443015236-ltgreen-MODEL.jpg"
+  },
+  {
+      "id": "19",
+      "title": "Ruffle Hem Dress",
+      "subtitle": "Style: RD7890",
+      "description": "This ruffle hem dress adds a touch of elegance to your summer wardrobe.",
+      "priceUSD": "$52",
+      "priceINR": "₹4337",
+      "imageUrl": "https://m.media-amazon.com/images/I/71063Qt-qWL._AC_UY1100_.jpg"
+  },
+  {
+      "id": "8",
+      "title": "Printed A-Line Dress",
+      "subtitle": "Style: AD3456",
+      "description": "A printed A-line dress that's perfect for any casual outing.",
+      "priceUSD": "$48",
+      "priceINR": "₹4007",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9ZQQtmJIkr5gQ8x5OA8XVPnXdgKU4yNKHw&s"
+  },
+  {
+      "id": "9",
+      "title": "Denim Shirt Dress",
+      "subtitle": "Style: DD5678",
+      "description": "A trendy denim shirt dress that's perfect for casual wear.",
+      "priceUSD": "$60",
+      "priceINR": "₹4987",
+      "imageUrl": "https://www.stylestone.in/cdn/shop/products/3791NavyShirtDrs_1.jpg?v=1658821008"
+  },
+  {
+      "id": "10",
+      "title": "Boho Maxi Dress",
+      "subtitle": "Style: BD9012",
+      "description": "A boho maxi dress that offers a relaxed and stylish look.",
+      "priceUSD": "$58",
+      "priceINR": "₹4827",
+      "imageUrl": "https://m.media-amazon.com/images/I/7159zKpYjTL._AC_UY1100_.jpg"
+  }
+],
+
+"mens": [
+  {
+    "id": "1",
+    "title": "Basic Polo Shirt",
+    "subtitle": "Style: PO1234",
+    "description": "A classic polo shirt for casual wear.",
+    "priceUSD": "$15",
+    "priceINR": "₹1235",
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20220907/qYpm/6318b6a7aeb269dbb3784d8e/-473Wx593H-410345362-1553-MODEL.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Crew Neck T-Shirt",
+    "subtitle": "Style: CT5678",
+    "description": "A comfortable crew neck t-shirt for everyday wear.",
+    "priceUSD": "$12",
+    "priceINR": "₹987",
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20240706/zkLV/668952631d763220fa0dc4a4/-473Wx593H-463484633-white-MODEL.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Casual Button-Up Shirt",
+    "subtitle": "Style: BU2345",
+    "description": "A casual button-up shirt suitable for both work and play.",
+    "priceUSD": "$18",
+    "priceINR": "₹1482",
+    "imageUrl": "https://m.media-amazon.com/images/I/71YLC4yiOqL._AC_UY1100_.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Lightweight Chino Pants",
+    "subtitle": "Style: CP6789",
+    "description": "Comfortable chinos perfect for a relaxed look.",
+    "priceUSD": "$20",
+    "priceINR": "₹1647",
+    "imageUrl": "https://uathayam.in/cdn/shop/files/15007_2__jpg.png?v=1714815582"
+  },
+  {
+    "id": "5",
+    "title": "Striped Long Sleeve Shirt",
+    "subtitle": "Style: LS3456",
+    "description": "A stylish long sleeve shirt with a modern stripe design.",
+    "priceUSD": "$22",
+    "priceINR": "₹1814",
+    "imageUrl": "https://m.media-amazon.com/images/I/719BoOGC-+L._AC_UY1100_.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Relaxed Fit Jeans",
+    "subtitle": "Style: RJ9012",
+    "description": "Comfortable jeans with a relaxed fit for casual outings.",
+    "priceUSD": "$25",
+    "priceINR": "₹2059",
+    "imageUrl": "https://getketchadmin.getketch.com/product/8905980293003/660/PHJN000067_1.JPG"
+  },
+  {
+    "id": "7",
+    "title": "V-Neck T-Shirt",
+    "subtitle": "Style: VT5678",
+    "description": "A casual v-neck t-shirt for everyday comfort.",
+    "priceUSD": "$14",
+    "priceINR": "₹1148",
+    "imageUrl": "https://m.media-amazon.com/images/I/812OLov9rwL._AC_UY1100_.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Short Sleeve Henley Shirt",
+    "subtitle": "Style: HS3456",
+    "description": "A casual henley shirt with short sleeves.",
+    "priceUSD": "$17",
+    "priceINR": "₹1390",
+    "imageUrl": "https://m.media-amazon.com/images/I/51bsPljLQ1L._AC_UY1100_.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Classic Sweatshirt",
+    "subtitle": "Style: SW7890",
+    "description": "A comfortable classic sweatshirt for cooler days.",
+    "priceUSD": "$30",
+    "priceINR": "₹2471",
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20231115/NrKZ/6554b448ddf77915198078cf/-473Wx593H-410409047-11e-MODEL.jpg"
+  }
+],
+
+"kids": [
+  {
+    "id": "1",
+    "title": "Floral Dress",
+    "subtitle": "Style: GD1234",
+    "description": "A lovely floral dress perfect for any occasion.",
+    "priceUSD": "$22",
+    "priceINR": "₹1814",
+    "imageUrl": "https://www.fayonkids.com/cdn/shop/files/manufactured-by-fayon-kids-noida-u-p-baby-pink-flower-gown-for-girls-39179559108864.jpg?v=1690362498&width=1445"
+  },
+  {
+    "id": "2",
+    "title": "Polka Dot Dress",
+    "subtitle": "Style: GD5678",
+    "description": "A fun polka dot dress for a playful look.",
+    "priceUSD": "$18",
+    "priceINR": "₹1482",
+    "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20230623/kWAC/6495029942f9e729d7869844/-473Wx593H-464669430-red-MODEL.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Denim Skirt",
+    "subtitle": "Style: GS3456",
+    "description": "A stylish denim skirt that pairs well with any top.",
+    "priceUSD": "$20",
+    "priceINR": "₹1647",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeusiN17uTdJ3Y1hYcZyMowZv48qMWor4ncg&s"
+  },
+  {
+    "id": "4",
+    "title": "Ruffled Dress",
+    "subtitle": "Style: GD7890",
+    "description": "A cute ruffled dress for a chic look.",
+    "priceUSD": "$25",
+    "priceINR": "₹2059",
+    "imageUrl": "https://stanwellskids.in/cdn/shop/files/Untitled-1copy-70825585-8c80-4775-8730-ffe3caf2f14e-_1.jpg?v=1701244797"
+  },
+ {
+    "id": "5",
+    "title": "Striped Polo Shirt",
+    "subtitle": "Style: BS1234",
+    "description": "A classic striped polo shirt for casual wear.",
+    "priceUSD": "$15",
+    "priceINR": "₹1235",
+    "imageUrl": "https://i.pinimg.com/474x/8a/05/81/8a0581a2940da0ad5e45a4df4ff53eb3.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Graphic T-Shirt",
+    "subtitle": "Style: BT5678",
+    "description": "A cool graphic t-shirt for a trendy look.",
+    "priceUSD": "$12",
+    "priceINR": "₹987",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSDTrdFjACWQTGtpVnGb2gjWmk0tcuD2j-Xw&s"
+  },
+  {
+    "id": "7",
+    "title": "Cargo Shorts",
+    "subtitle": "Style: BS3456",
+    "description": "Durable cargo shorts perfect for outdoor activities.",
+    "priceUSD": "$20",
+    "priceINR": "₹1647",
+    "imageUrl": "https://media.capeunionmart.co.za/i/capeunionmart/103885148_C78_2?$zoom$"
+  },
+  {
+    "id": "8",
+    "title": "Plaid Button-Up Shirt",
+    "subtitle": "Style: BS7890",
+    "description": "A stylish plaid button-up shirt for a smart casual look.",
+    "priceUSD": "$22",
+    "priceINR": "₹1814",
+    "imageUrl": "https://m.media-amazon.com/images/I/6124JuHQHdL._AC_UY1100_.jpg"
+  }
+
+],
+
+  "accessories": [
+      {
+        "id": "1",
+        "title": "Leather Handbag",
+        "subtitle": "Style: WH1234",
+        "description": "A stylish leather handbag perfect for everyday use.",
+        "priceUSD": "$89",
+        "priceINR": "₹7328",
+        "imageUrl": "https://m.media-amazon.com/images/I/61RSyB+kbzL._AC_UY1000_.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Gold Hoop Earrings",
+        "subtitle": "Style: WE5678",
+        "description": "Elegant gold hoop earrings to complement any outfit.",
+        "priceUSD": "$45",
+        "priceINR": "₹3747",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu59iO_pztethViT7lKlp3DqHjeBuP18EhA&s"
+      },
+      {
+        "id": "3",
+        "title": "Silk Scarf",
+        "subtitle": "Style: WS3456",
+        "description": "A luxurious silk scarf to add a touch of sophistication.",
+        "priceUSD": "$35",
+        "priceINR": "₹2874",
+        "imageUrl": "https://i.etsystatic.com/21454014/r/il/0e2413/4222325621/il_fullxfull.4222325621_9v2t.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Sunglasses",
+        "subtitle": "Style: WG7890",
+        "description": "Chic sunglasses to protect your eyes and elevate your look.",
+        "priceUSD": "$60",
+        "priceINR": "₹4987",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8hyY6uY2wLIYq9wPWXoovXXZMsC4mi2YvA&s"
+      },
+ 
+   
+      {
+        "id": "5",
+        "title": "Leather Wallet",
+        "subtitle": "Style: MW1234",
+        "description": "A durable leather wallet with multiple compartments.",
+        "priceUSD": "$40",
+        "priceINR": "₹3284",
+        "imageUrl": "https://m.media-amazon.com/images/I/91+yVDGMY3L._AC_UY1100_.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Stainless Steel Watch",
+        "subtitle": "Style: MW5678",
+        "description": "A sleek stainless steel watch with a modern design.",
+        "priceUSD": "$120",
+        "priceINR": "₹9872",
+        "imageUrl": "https://justintime.in/cdn/shop/products/T1274101104100.jpg?v=1682058773"
+      },
+      {
+        "id": "7",
+        "title": "Leather Belt",
+        "subtitle": "Style: MB3456",
+        "description": "A classic leather belt to complete your outfit.",
+        "priceUSD": "$25",
+        "priceINR": "₹2059",
+        "imageUrl": "https://teakwoodleathers.com/cdn/shop/products/CN6B1616_1080x.jpg?v=1649238055"
+      },
+      {
+        "id": "8",
+        "title": "Baseball Cap",
+        "subtitle": "Style: MB7890",
+        "description": "A trendy baseball cap for casual wear.",
+        "priceUSD": "$18",
+        "priceINR": "₹1482",
+        "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/xif0q/cap/t/7/b/free-latest-ny-baseball-cap-highever-original-imagnm8yxxvmhmdy.jpeg?q=90&crop=false"
+      }
+    ],
+
+"Cosmetics": [
+  {
+    "id": "1",
+    "title": "Moisturizing Foundation",
+    "subtitle": "Shade: Medium Beige",
+    "description": "A hydrating foundation that provides full coverage with a natural finish.",
+    "priceUSD": "$15",
+    "priceINR": "₹1230",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtn0S7PgxndatixaiUuNrrLYo72n37SBYw5A&s"
+  },
+  {
+    "id": "2",
+    "title": "Luxury Lipstick",
+    "subtitle": "Shade: Ruby Red",
+    "description": "A creamy lipstick that delivers rich, vibrant color with a smooth finish.",
+    "priceUSD": "$10",
+    "priceINR": "₹820",
+    "imageUrl": "https://i.pinimg.com/736x/60/c0/f7/60c0f749b89a6e75c4214d2565ae2cd4.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Eyeshadow Palette",
+    "subtitle": "Color: Sunset Glow",
+    "description": "A versatile palette with a range of shades to create endless eye looks.",
+    "priceUSD": "$20",
+    "priceINR": "₹1640",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0906/2558/files/Blend-The-Rules-Eyeshadow-Palette-6.jpg?v=1719852173"
+  },
+  {
+    "id": "4",
+    "title": "Eyeliner Pencil",
+    "subtitle": "Color: Jet Black",
+    "description": "An ultra-smooth eyeliner pencil that glides on effortlessly for bold lines.",
+    "priceUSD": "$8",
+    "priceINR": "₹660",
+    "imageUrl": "https://m.media-amazon.com/images/I/21xnteSTsAS.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Hydrating Face Serum",
+    "subtitle": "Size: 30ml",
+    "description": "A lightweight serum that deeply hydrates and revitalizes the skin.",
+    "priceUSD": "$25",
+    "priceINR": "₹2050",
+    "imageUrl": "https://m.media-amazon.com/images/I/51TKKIO5QjL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Anti-Aging Cream",
+    "subtitle": "Size: 50ml",
+    "description": "A rich cream that helps reduce the appearance of fine lines and wrinkles.",
+    "priceUSD": "$30",
+    "priceINR": "₹2460",
+    "imageUrl": "https://m.media-amazon.com/images/I/61oAOR5c21L._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Setting Spray",
+    "subtitle": "Size: 100ml",
+    "description": "A long-lasting setting spray that keeps makeup in place all day.",
+    "priceUSD": "$15",
+    "priceINR": "₹1230",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSoqCv46a8TbV1hju90YBe0Tq1uyZXn6vByg&s"
+  },
+  {
+    "id": "8",
+    "title": "Blush Compact",
+    "subtitle": "Color: Rosy Pink",
+    "description": "A blush that adds a natural flush of color to your cheeks.",
+    "priceUSD": "$12",
+    "priceINR": "₹990",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMmiclXgh0faKR5mWSCxWMGl9ZrAdW2uvxhA&s"
+  },
+  {
+    "id": "9",
+    "title": "Concealer Stick",
+    "subtitle": "Shade: Ivory",
+    "description": "A creamy concealer that provides excellent coverage and blends seamlessly.",
+    "priceUSD": "$14",
+    "priceINR": "₹1150",
+    "imageUrl": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13632855-5054951647214245.jpg"
+  }
+],
+
+"pro2": [ 
+  {
+    "id": "1",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397", 
+     "imageUrl": "https://cottonworld.net/cdn/shop/products/L-BLOUSE-16863-20351-CORAL_5_96862ef3-ba94-41e3-b57f-b66376b446e3.jpg?v=1674623487&width=1280"
+  },
+  {
+    "id": "1",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397",
+    "imageUrl": "https://cottonworld.net/cdn/shop/products/L-BLOUSE-16863-20351-CORAL_5_96862ef3-ba94-41e3-b57f-b66376b446e3.jpg?v=1674623487&width=1280"
+  },
+  {
+    "id": "1",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397",
+     "imageUrl": "https://cottonworld.net/cdn/shop/products/L-BLOUSE-16863-20351-CORAL_5_96862ef3-ba94-41e3-b57f-b66376b446e3.jpg?v=1674623487&width=1280"
+   
+  },
+  {
+    "id": "1",
+    "title": "Floral Maxi Dress",
+    "subtitle": "Style: FD1234",
+    "description": "This elegant floral maxi dress features a flowing silhouette and a delicate print, perfect for any summer event.",
+    "priceUSD": "$89",
+    "priceINR": "₹7397",
+     "imageUrl": "https://cottonworld.net/cdn/shop/products/L-BLOUSE-16863-20351-CORAL_5_96862ef3-ba94-41e3-b57f-b66376b446e3.jpg?v=1674623487&width=1280"
+
+  }
+
+]
+
+
+
+  
+
+
+
+}
